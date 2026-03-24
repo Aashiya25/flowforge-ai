@@ -82,7 +82,7 @@ cd flowforge-ai
 ### 2. Install dependencies
 
 If pip works:
-```bash
+
 pip install streamlit requests
 
 If pip is not recognized:
