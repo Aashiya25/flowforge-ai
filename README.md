@@ -76,6 +76,22 @@ User Input → Draft Agent → Brand Review Agent → Human Approval → Publish
 ## 🚀 How to Run  
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/Aashiya25/flowforge-ai
 cd flowforge-ai
+
+### 2. Install dependencies
+
+If pip works:
+```bash
+pip install streamlit requests
+
+If pip is not recognized:
+python -m pip install streamlit requests
+
+### 3. Add API Key
+Open app.py and replace YOUR_OPENROUTER_API_KEY in:
+"Authorization": "Bearer YOUR_OPENROUTER_API_KEY"
+with your API key.
+
+### 4. Run the app
+python -m streamlit run app.py
