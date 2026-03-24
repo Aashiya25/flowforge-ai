@@ -77,5 +77,5 @@ User Input → Draft Agent → Brand Review Agent → Human Approval → Publish
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/flowforge-ai.git
+git clone https://github.com/Aashiya25/flowforge-ai
 cd flowforge-ai
