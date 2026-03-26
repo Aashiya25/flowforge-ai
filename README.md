@@ -76,5 +76,21 @@ This app requires an API key to generate content.
    - OpenRouter OR OpenAI  
 
 2. Run the app:
-```bash
 streamlit run app.py
+
+3. Enter your API key in the UI when prompted
+⚠️ Note:
+API keys are not included in this repository for security reasons
+Users must provide their own key
+
+## 🚀 How to Run  
+
+### 1. Clone the repository
+git clone https://github.com/Aashiya25/flowforge-ai
+cd flowforge-ai
+
+### 2. Install dependencies
+python -m pip install streamlit requests
+
+### 3. Run the app
+python -m streamlit run app.py
