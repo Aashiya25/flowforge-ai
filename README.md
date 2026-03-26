@@ -1,97 +1,80 @@
 # 🚀 FlowForge AI  
-### Forging Enterprise Content Workflows with Multi-Agent Intelligence  
+**Forging Content Workflows with Multi-Agent Intelligence**  
+
+Create → Review → Approve → Publish → Localize  
 
 ---
 
 ## 🧠 Problem Statement  
-
 Enterprise content creation is fragmented, slow, and inconsistent.  
-Teams struggle with:
+
+Teams struggle with:  
 - Manual drafting  
-- Lack of brand compliance  
+- Lack of brand consistency  
 - Delayed approvals  
-- Multi-platform adaptation challenges  
+- Difficulty adapting content across platforms  
 
 ---
 
 ## 💡 Our Solution  
+**FlowForge AI** is a multi-agent system that automates the entire content lifecycle.  
 
-**FlowForge AI** is a multi-agent system that automates the entire content lifecycle:
-
-> ✨ Create → Review → Approve → Publish → Localize  
-
-It combines AI agents with human-in-the-loop validation to ensure speed, consistency, and quality.
+It combines AI agents with human-in-the-loop validation to ensure:  
+- Faster creation  
+- Consistent branding  
+- Platform-specific optimization  
 
 ---
 
 ## ⚙️ Key Features  
 
 ### 🟡 Draft Agent  
-Generates platform-specific content (Instagram, Blog, LinkedIn)
+Generates high-quality, platform-specific content (Instagram, LinkedIn, Blog)
 
 ### 🔵 Brand Compliance Agent  
-Checks:
-- Tone consistency  
-- Grammar  
-- Misleading claims  
+Ensures content is:  
+- Clear and structured  
+- Brand-safe  
+- Ready for publishing  
 
-### 🟣 Human-in-the-loop Approval  
-Allows user to:
+### 🟣 Human-in-the-Loop  
+Users can:  
 - Approve content  
-- Improve content  
+- Improve content with one click  
 
-### 📤 Publish Agent  
-Automatically adapts content for:
-- Instagram  
-- LinkedIn  
-- Blog  
+### 📤 Publish Simulation  
+Platform-specific publish buttons simulate real-world deployment  
 
 ### 🌍 Localization Agent  
-Translates content into Hindi for wider reach  
-
-### 📊 Impact Metrics  
-- ⏱ 70% faster content creation  
-- 📈 3x content output  
-- ✅ Improved consistency  
+Converts content into Hindi while preserving tone and structure  
 
 ---
 
 ## 🏗️ System Architecture  
 
-User Input → Draft Agent → Brand Review Agent → Human Approval → Publish Agent → Localization  
+User Input → Draft Agent → Brand Check → Human Review → Publish → Localization  
 
-(Add architecture diagram image here)
+*(Add your architecture diagram image here)*  
 
 ---
 
 ## 🧪 Tech Stack  
-
 - **Frontend:** Streamlit  
 - **Backend:** Python  
-- **AI Models:** OpenRouter (LLM APIs)  
+- **API:** OpenRouter / OpenAI  
 - **Libraries:** Requests  
 
 ---
 
-## 🚀 How to Run  
+## 🔐 API Key Setup  
 
-### 1. Clone the repository
-git clone https://github.com/Aashiya25/flowforge-ai
-cd flowforge-ai
+This app requires an API key to generate content.
 
-### 2. Install dependencies
-If pip works:
-pip install streamlit requests
+### Steps:
 
-If pip is not recognized:
-python -m pip install streamlit requests
+1. Get your API key from:
+   - OpenRouter OR OpenAI  
 
-### 3. Add API Key
-Open app.py and replace YOUR_OPENROUTER_API_KEY in:
-
-"Authorization": "Bearer YOUR_OPENROUTER_API_KEY"
-
-with your API key.
-
-### 4. Run the app
-python -m streamlit run app.py
+2. Run the app:
+```bash
+streamlit run app.py
