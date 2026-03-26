@@ -92,5 +92,5 @@ cd flowforge-ai
 ### 2. Install dependencies
 python -m pip install streamlit requests
 
-### 3. Run the app
+### 3. Run the app 
 python -m streamlit run app.py
