@@ -54,7 +54,9 @@ Converts content into Hindi while preserving tone and structure
 
 User Input → Draft Agent → Brand Check → Human Review → Publish → Localization  
 
-*(Add your architecture diagram image here)*  
+<p align="center">
+  <img src="architecture.png" width="700"/>
+</p>
 
 ---
 
