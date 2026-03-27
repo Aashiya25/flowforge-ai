@@ -97,5 +97,5 @@ python -m streamlit run app.py
 3. Enter your API key in the UI when prompted
 
 ⚠️ Note:
-API keys are not included in this repository for security reasons
+API keys are not included in this repository for security reasons.
 Users must provide their own key
