@@ -17,12 +17,13 @@ Teams struggle with:
 ---
 
 ## 💡 Our Solution  
-**FlowForge AI** is a multi-agent system that automates the entire content lifecycle.  
+**FlowForge AI** is a **multi-agent content generation system** that automates the entire workflow:
 
-It combines AI agents with human-in-the-loop validation to ensure:  
-- Faster creation  
-- Consistent branding  
-- Platform-specific optimization  
+- Generates platform-specific content  
+- Ensures brand compliance  
+- Allows human review & improvement  
+- Simulates publishing  
+- Supports localization (Hindi)  
 
 ---
 
@@ -46,13 +47,13 @@ Users can:
 Platform-specific publish buttons simulate real-world deployment  
 
 ### 🌍 Localization Agent  
-Converts content into Hindi while preserving tone and structure  
+Converts content into local language (Hindi) while preserving tone and structure  
 
 ---
 
 ## 🏗️ System Architecture  
 
-User Input → Draft Agent → Brand Check → Human Review → Publish → Localization  
+User Input → Frontend → Orchestrator → Draft Agent → Brand Check → Human Review → Publish → Localization  
 
 <p align="center">
   <img src="architecture.png" width="600"/>
@@ -68,23 +69,6 @@ User Input → Draft Agent → Brand Check → Human Review → Publish → Loca
 
 ---
 
-## 🔐 API Key Setup  
-
-This app requires an API key to generate content.
-
-### Steps:
-
-1. Get your API key from:
-   - OpenRouter OR OpenAI  
-
-2. Run the app:
-streamlit run app.py
-
-3. Enter your API key in the UI when prompted
-⚠️ Note:
-API keys are not included in this repository for security reasons
-Users must provide their own key
-
 ## 🚀 How to Run  
 
 ### 1. Clone the repository
@@ -96,3 +80,21 @@ python -m pip install streamlit requests
 
 ### 3. Run the app 
 python -m streamlit run app.py
+
+## 🔐 API Key Setup  
+
+This app requires an API key to generate content.
+
+### Steps:
+
+1. Get your API key from:
+   - OpenRouter (Recommended) OR
+   - OpenAI  
+
+2. Run the app:
+python -m streamlit run app.py
+
+3. Enter your API key in the UI when prompted
+⚠️ Note:
+API keys are not included in this repository for security reasons
+Users must provide their own key
