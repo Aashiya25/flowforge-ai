@@ -99,3 +99,11 @@ python -m streamlit run app.py
 ⚠️ Note:
 API keys are not included in this repository for security reasons.
 Users must provide their own key
+
+## 🔗 Links  
+
+**GitHub Repository:**  
+https://github.com/Aashiya25/flowforge-ai  
+
+**Demo Video:**  
+https://your-loom-link  
