@@ -55,6 +55,8 @@ Converts content into local language (Hindi) while preserving tone and structure
 
 User Input → Frontend → Orchestrator → Draft Agent → Brand Check → Human Review → Publish → Localization  
 
+The FlowForge AI Orchestrator manages the workflow and coordinates all agents to ensure a smooth content pipeline.
+
 <p align="center">
   <img src="architecture.png" width="600"/>
 </p>
